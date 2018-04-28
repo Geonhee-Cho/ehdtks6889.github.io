@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Marvel - Avengers3 : InfinitWar</title>
+    <style>
+      body{
+          background-color:black;
+          background-size: cover;
+          margin-top: auto;
+          margin-bottom: auto;
+          }
+      .container {
+          padding: 0.5em;
+        }
+
+        button,
+        button::after {
+          -webkit-transition: all 0.3s;
+          -moz-transition: all 0.3s;
+          -o-transition: all 0.3s;
+          transition: all 0.3s;
+        }
+
+  button {
+    background: none;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-size: 1.6em;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    }
+
+    button::before,
+    button::after {
+      background: #fff;
+      content: '';
+      position: absolute;
+      z-index: -1;
+    }
+
+    button:hover {
+      color: #2ecc71;
+    }
+
+    .btn-1::after {
+      height: 0;
+      left: 0;
+      top: 0;
+      width: 100%;
+    }
+
+    .btn-1:hover:after {
+      height: 100%;
+    }
+    </style>
+  </head>
+  <body>
+    <div class ="container">
+      <left><button type="button" class="btn-1"  onclick="location.href = 'Cho.html'">skip</button></left>
+    </div>
+    <video src="image/opening.mp4" autoplay width="100%" height="100%" loop>
+  </body>
+</html>
